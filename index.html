@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Techy Jaunt Assignment</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+
+        .intro-block {
+            text-align: center;
+        }
+
+        .intro-block h1{
+             margin: 1rem 0px;
+        }
+
+        .intro-block p{
+            margin: 1.5rem 0px;
+        }
+
+        .intro-block img{
+            width: 100%;
+        }
+
+       .about-section{
+        padding: 30px;
+         margin-top:10rem;
+       }
+
+       .about-section h3{
+        text-align: center;
+       }
+
+       th, td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: left;
+        }
+
+        input, textarea ,table{
+            padding: 1rem;
+            border-radius: 10px;
+            width: 40rem;
+        }
+
+        form{
+            text-align: center;
+        }
+
+        table{
+            margin-left: 25rem;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <main style="background-color: aquamarine;">
+        <div class="intro-block" style="background-color: aquamarine; color: rgb(45, 77, 128); padding: 70px 10px;">
+            <a href="#about"> about section</a>
+            <h1>OLUREBI SOLOMON</h1>
+            <p>My name is olurebi solomon , a 200 level student of ladoke akintola university of technology</p>
+            <img src="./image2.jpg" alt=" picture of an analyst">
+        </div>
+        <section>
+            <div class="about-section"  id="about">
+                <h3>About Me </h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Asperiores perspiciatis repellendus magnam laudantium 
+                    repellat sunt facilis nam, necessitatibus, deleniti dolore
+                    recusandae, ipsum voluptates! Repellat dolorem quibusdam 
+                    voluptas ducimus explicabo consequatur dignissimos, unde 
+                    accusamus maxime aperiam ad nihil non quasi temporibus veniam
+                    quia. In perspiciatis odit, sequi magni quae totam cupiditate.
+                </p>
+            </div>
+        </section>
+
+        <form>
+            <label for="name">Name:</label>
+            <br>
+            <input type="text" id="name" placeholder="Enter your name" required>
+            <br>
+            <label for="email">Email:</label>
+            <br>
+            <input type="email" id="email" placeholder="Enter Your Email" required>
+            <br>
+            <label for="message">Message</label>
+            <br>
+            <textarea name="message" id="message" rows="4" cols="20"></textarea>
+        </form>
+
+        <table>
+            <tr>
+                <th>Name of the movie/hobby</th>
+                <th>A short reason why i like it</th>
+            </tr>
+
+            <tr>
+                <td>Playing football</td>
+                <td>helps me keep fit</td>
+            </tr>
+
+            <tr>
+                <td>Watching movies</td>
+                <td>it keeps me entertained</td>
+            </tr>
+        </table>
+   </main>
+</body>
+</html>
