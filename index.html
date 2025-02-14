@@ -8,6 +8,12 @@
         *{
             padding: 0;
             margin: 0;
+            box-sizing: border-box;
+            overflow-x: hidden;
+        }
+
+        main{
+            width: 100vw;
         }
 
         .intro-block {
@@ -55,6 +61,20 @@
             margin-left: 25rem;
             border-radius: 20px;
         }
+
+        @media (max-width:1000px)  {
+            form{
+                padding:20px;
+            }
+            input, textarea{
+                width: 100%;
+            }
+
+            table{
+                margin-left: 0;
+                width: 100%;
+            }
+        }
     </style>
 </head>
 <body>
@@ -63,7 +83,9 @@
             <a href="#about"> about section</a>
             <h1>OLUREBI SOLOMON</h1>
             <p>My name is olurebi solomon , a 200 level student of ladoke akintola university of technology</p>
-            <img src="./image2.jpg" alt=" picture of an analyst">
+            <div>
+                <img src="./image2.jpg" alt=" picture of an analyst">
+            </div>
         </div>
         <section>
             <div class="about-section"  id="about">
